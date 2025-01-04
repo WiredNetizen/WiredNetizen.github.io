@@ -38,7 +38,8 @@ header {
   width:200px;
   height:100vh;
   border:1px solid var(--border-color);
-  position:fixed;
+  position:relative;
+  float:right;
 }
 article {
   background-color:var(--bg-color);
@@ -87,16 +88,15 @@ footer {
 
 @media only screen and (max-width: 630px) {
    .sidebar {
-     margin: 1;
-     padding: 10px;
-     width: 30%;
-     position: fixed;
-     height: 100%;
-     float: right;
-     display: flex;
-     flex-wrap: wrap;
-     flex-direction: row;
-     overflow: auto;
+     position:relative;
+     max-width:100%;
+     width:100%;
+     height:150px;
+     display:flex;
+     float:right;
+     flex-direction:row;
+     flex-wrap:wrap;
+     overflow:hidden;
    }
    
    .flex {
