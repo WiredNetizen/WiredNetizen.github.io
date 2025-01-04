@@ -33,8 +33,6 @@ header {
   padding: 10px;
 }
 .sidebar {
-  display:flex;
-  justify-content:right;
   background-color:var(--bg-color);
   max-width:250px;
   width:200px;
