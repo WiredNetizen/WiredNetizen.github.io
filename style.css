@@ -33,13 +33,14 @@ header {
   padding: 10px;
 }
 .sidebar {
+  display:flex;
+  justify-content:right;
   background-color:var(--bg-color);
   max-width:250px;
   width:200px;
   height:100vh;
   border:1px solid var(--border-color);
   position:relative;
-  float:right;
 }
 article {
   background-color:var(--bg-color);
