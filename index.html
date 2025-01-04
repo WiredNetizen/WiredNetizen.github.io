@@ -1,61 +1,108 @@
 <!doctype html>
-<html lang="en-GB">
+<html lang="en-US">
   <head>
-    <!-- See favicons -->
-    <!-- Meta tags describe page contents, referred to as keywords -->
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width"/>
-    <!-- What are sitelinks? How do you configure them via Google's webmaster tools? -->
-    <meta name="author" content="WiredNetizen"/>
-    <!-- What is the open graph protocol? -->
-    <meta name="description" content="My home online."/>
-    <title>My Wired Page</title>
-    <!-- Anatomy of HTML elements, opening and closing tags, content. These together form
-	 an element. Elements can also have attributes, which give additional information
-      -->
-    <link rel="stylesheet" href="style.css"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>My page title</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <h1>Welcome to my website!</h1>
-    <h2>Lain section</h2>
-    <img src="images/lain-image.png" alt="Lain from Serial Experiments Lain, a young Japanese girl with hazel eyes, brown hair."/>
-    <h2>HTML section</h2>
-    <p>This is an example of a <strong>nested</strong> element.</p>
-    <!-- What is level 1's implicit style? What are accessibility and SEO reason for
-	 sequencing? -->
-    <!-- What is Search Engine Optimization? How do descriptions effect this? -->
-    <h2>Lists</h2>
-    <ol>
-      <li>This is a list</li>
-      <li>This is a second list</li>
-    </ol>
-    <h2>Webring</h2>
-    <a href="https://dons.directory/">Don's Directory</a>
-    <!-- See character reference chart. Useful for, as an example, double quotes in double
-	 quotes -->
-    <!-- Whitespace is reduced to 1 by the browser. Keep in mind that using the
-	 innerHTML with Javascript does not do this, which means you'd likely have
-	 to process this yourself. -->
-    <p>Japanese example: <span lang="ja">ご飯が熱い。</span>.</p>
-    <h2> Description lists </h2>
-    <dl>
-      <dt>soliloquy</dt>
-      <dd>
-	In drama, where a character speaks to themselves, representing their inner
-	thoughts or feelings and in the process relaying them to the audience (but
-	not to other characters.)
-      </dd>
-      <dt>monologue</dt>
-      <dd>
-	In drama, where a character speaks their thoughts out loud to share them
-	with the audience and any other characters present.
-      </dd>
-      <dt>aside</dt>
-      <dd>
-	In drama, where a character shares a comment only with the audience for
-	humorous or dramatic effect. This is usually a feeling, thought, or piece of
-	additional background information.
-      </dd>
-    </dl>
+    <!-- The main header used across all the pages of our website -->
+
+    <header>
+      <h1>Header</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Our team</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+      <!-- A Search form: another common non-linear way to navigate through a site. -->
+
+      <form>
+        <input type="search" name="q" placeholder="Search query" />
+        <input type="submit" value="Go!" />
+      </form>
+    </nav>
+
+    <!-- Our page's main content -->
+    <main>
+      <!-- An article -->
+      <article>
+        <h2>Article heading</h2>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam
+          lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam
+          viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent
+          et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt
+          congue enim, ut porta lorem lacinia consectetur.
+        </p>
+
+        <section>
+          <h3>Subsection</h3>
+
+          <p>
+            Donec ut librero sed accu vehicula ultricies a non tortor. Lorem
+            ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut
+            gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id
+            dolor.
+          </p>
+
+          <p>
+            Pelientesque auctor nisi id magna consequat sagittis. Curabitur
+            dapibus, enim sit amet elit pharetra tincidunt feugiat nist
+            imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed
+            odio eros.
+          </p>
+        </section>
+
+        <section>
+          <h3>Another subsection</h3>
+
+          <p>
+            Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum
+            soclis natoque penatibus et manis dis parturient montes, nascetur
+            ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at
+            sem facilisis semper ac in est.
+          </p>
+
+          <p>
+            Vivamus fermentum semper porta. Nunc diam velit, adipscing ut
+            tristique vitae sagittis vel odio. Maecenas convallis ullamcorper
+            ultricied. Curabitur ornare, ligula semper consectetur sagittis,
+            nisi diam iaculis velit, is fringille sem nunc vet mi.
+          </p>
+        </section>
+      </article>
+
+      <!-- the aside content can also be nested within the main content -->
+      <aside>
+        <h2>Related</h2>
+
+        <ul>
+          <li><a href="#">Oh I do like to be beside the seaside</a></li>
+          <li><a href="#">Oh I do like to be beside the sea</a></li>
+          <li><a href="#">Although in the North of England</a></li>
+          <li><a href="#">It never stops raining</a></li>
+          <li><a href="#">Oh well…</a></li>
+        </ul>
+      </aside>
+    </main>
+
+    <!-- The footer that is used across all the pages of our website -->
+
+    <footer>
+      <p>©Copyright 2050 by nobody. All rights reversed.</p>
+    </footer>
   </body>
 </html>
