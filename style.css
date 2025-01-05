@@ -14,7 +14,7 @@ a:hover {
 
 .navbar {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
@@ -49,14 +49,15 @@ a:hover {
 
 .center {
     display: flex;
-    flex-direction: column;
-    position: absolute;
+    flex-direction: row;
+    position: relative;
     margin: auto;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     margin: 40%;
+    padding: 40%;
     max-width: 400px;
     max-height: 400px;
     width: 100%;
