@@ -5,6 +5,7 @@ body {
 
 a {
     color: red;
+    text-decoration: none;
 }
 
 a:link {
@@ -19,6 +20,17 @@ a:hover {
     text-decoration: none;
 }
 
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.navbar li {
+    border: 2px solid white;
+}
+
 .border {
     border: 5px solid white;
 }
@@ -26,7 +38,15 @@ a:hover {
 .box {
   margin: 30px;
   width: 100%;
+  max-width: 250px;
+  max-height: 50px;
   height: 100%;
   background-color: rebeccapurple;
-  transform: rotate(0.8turn);
+  /* transform: rotate(0.8turn); Example function, keep in mind! */
+}
+
+@media (min-width: 70em) {
+  body {
+    font-size: 130%;
+  }
 }
