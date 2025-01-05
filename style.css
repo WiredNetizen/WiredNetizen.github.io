@@ -2,3 +2,31 @@ body {
     background-color: black;
     color: white;
 }
+
+a {
+    color: red;
+}
+
+a:link {
+    color: pink;
+}
+
+a:visited {
+    color:magenta;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.border {
+    border: 5px solid black;
+}
+
+.box {
+  margin: 30px;
+  width: 100px;
+  height: 100px;
+  background-color: rebeccapurple;
+  transform: rotate(0.8turn);
+}
