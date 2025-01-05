@@ -40,9 +40,7 @@ a:hover {
 .center {
     display: flex;
     flex-direction: row;
-    position: fixed;
-    margin: 40%;
-    padding: 5%;
+    margin: auto;
     max-width: 400px;
     max-height: 400px;
     width: 100%;
