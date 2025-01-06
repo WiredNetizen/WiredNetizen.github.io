@@ -25,7 +25,7 @@
           <a class="nav-elem" href="#">Kitchen</a>
           <a class="nav-elem" href="#">Library</a>
 	  <a class="nav-elem" href="#">Shrine</a>
-	  <a class="nav-elem" href="pages/neighbours.html">Neighbours</a>
+	  <a class="nav-elem" href="#">Neighbours</a>
 	</nav>
       </div>
     </main>
