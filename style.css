@@ -24,7 +24,6 @@ a:hover {
     border: 2px solid white;
     width: 100%;
     height: 100%;
-    margin: 5%;
     /* display: inline-block; */
 }
 
@@ -34,6 +33,10 @@ a:hover {
 
 .border {
     border: 5px solid white;
+}
+
+.center-banner {
+    display: flex;
 }
 
 .center {
