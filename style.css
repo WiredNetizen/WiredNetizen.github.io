@@ -37,6 +37,7 @@ a:hover {
 
 .center-banner {
     display: flex;
+    align-items: center;
 }
 
 .center {
